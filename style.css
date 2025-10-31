@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tilt+Neon&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -5,13 +6,41 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: rgb(86, 212, 170);
+    background-color: whitesmoke;
 }
 
-.test {
-    color: dodgerblue;
-    margin: 10px;
-    font-family: Arial, sans-serif;
-    font-size: 48px;
-    text-align: center;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+    
+    
 }
+
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    bottom: 2px;
+}
+
+h1 {
+    font-family: 'Montserrat', Gadget, sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.brands {
+    font-size: 2.5rem;
+    color: #000000;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+
+}
+
+h1::view-transition {
+   transition: transform 0.3s ease,
